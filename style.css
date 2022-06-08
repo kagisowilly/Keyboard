@@ -1,0 +1,107 @@
+.buttons{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto auto auto;
+column-gap: 10px;
+row-gap: 10px;
+}
+body{
+ background-color: burlywood;
+ width: 100%;
+}
+.main_page{
+    height: 85vh;
+    display: flex; 
+    align-items: flex-end;
+    width: 100%;
+}
+.textbox{
+    border: solid 2px red;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+background-color: aliceblue;
+text-align: right;
+}
+.clear{
+    background-color: red;
+    color: white;
+    width: 70px;
+    
+}
+.space2{
+    background-color: rgb(136, 136, 136);
+    color: white;
+    /* display: none; */
+    width:25%;
+}
+.send{
+    background-color: rgb(69, 205, 69);
+    
+}
+
+.button-section{
+font-size: 20px;
+}
+
+/* @media all and (max-width: 768px) {
+    .buttons{
+        display: grid;
+        grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+        column-gap: 12px;
+        row-gap:11px;
+        margin:auto !important;
+        font-size: small;
+        }
+        .page{
+         
+        }
+        .main_page{
+            height: 95vh;
+            display: flex; 
+            align-items: center;
+            width: 100%;
+            
+        }
+        .space{
+            background-color: rgb(136, 136, 136);
+            color: white;
+            display: none;
+        }
+        .space2{
+            background-color: rgb(136, 136, 136);
+            color: white;
+            display: block;
+            width: fit-content;
+        }
+        .clear{
+            width: fit-content;
+        }
+} */
+@media all and (max-width: 500px) {
+    .buttons{
+        display: grid;
+        grid-template-columns:auto auto auto auto auto auto auto auto auto;
+        column-gap: 9px;
+        row-gap:8px;
+        margin:auto !important;
+        font-size: 10px;
+        }
+        .main_page{
+            height: 85vh;
+            display: flex; 
+            align-items: flex-end;
+            width: 100%;            
+        }
+
+        .space2{
+            background-color: rgb(136, 136, 136);
+            color: white;
+            width:50%;
+        }
+        .clear{
+            width: fit-content;
+        }
+        .button-section{
+            font-size: 10px;
+            }
+}
