@@ -16,5 +16,7 @@ function spaceOutput(){
 };
 
 let sendMessage = () =>{
-    alert("Message sent successfully")
+    alert("Message sent successfully");
+    letters = "";
+    document.getElementById("output").innerText = letters;
 }
